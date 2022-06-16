@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAHOO票房排行</title>
+
+    <!-- JQuery連結 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    
+    <!-- Data Table連結 -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    
+    <!-- 表格CSS連結 -->
+    <link rel="stylesheet" type="text/css" href="dataTable.css" />
+      <!-- 導覽列CSS連結 -->
+      <link rel="stylesheet" href="navh.css"/>
+</head>
+<body>
+    <h1 style="text-align:center">排行榜</h1>
+        <nav>
+            <ul>
+                <li id="left"><a class="active" href="IPopular.html">IMDB熱門排行</a></li>
+                <li><a class="active" href="IBest.html">IMDB評價排行</a></li>
+                <li><a class="active" href="TPopular.html">爛番茄熱門排行</a></li>
+                <li><a class="active" href="TBest.html">爛番茄評價排行</a></li>
+                <li><a class="active" href="YAHOOPopular.html">YAHOO票房排行</a></li>
+                <li style="float:right;"><a href="#">關於</a></li>
+            </ul>
+        </nav>
+    <div class="container">
+        
+        <!-- 以下表格為YAHOO票房排行 -->
+        <table id="table_id" class="display conpact hover cell-border stripe" style="width:100%">
+                <thead>
+                    <td>排行</td>
+                    <td>片名</td>
+                    <td>上映日期</td>
+                    <td>網友滿意度</td>
+                </thead>
+                <tr>
+                    <td>1</td>
+                    <td>捍衛戰士:獨行俠</td>
+                    <td>2022-05-25</td>
+                    <td>4.7</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>奇異博士2：失控多重宇宙</td>
+                    <td>2022-05-04</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>媽的多重宇宙</td>
+                    <td>2022-04-22</td>
+                    <td>3.4</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>們</td>
+                    <td>2022-06-02</td>
+                    <td>3.5</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>犯罪都市2</td>
+                    <td>2022-05-20</td>
+                    <td>4.6</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>怪獸與鄧不利多的秘密</td>
+                    <td>2022-04-14</td>
+                    <td>3.5</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>劇場版FREE!男子游泳部–the Final Stroke–後篇</td>
+                    <td>2022-06-02</td>
+                    <td>4.7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>電影版 99.9 不可能的翻案</td>
+                    <td>2022-05-27</td>
+                    <td>4.5</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>PINA《碧娜鮑許10周年紀念版》</td>
+                    <td>2012-06-08</td>
+                    <td>3.3</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>失速母親</td>
+                    <td>2022-06-02</td>
+                    <td>2.4</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>咒</td>
+                    <td>2022-03-18</td>
+                    <td>3.3</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>噪音</td>
+                    <td>2022-06-02</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>費爾的旅程</td>
+                    <td>2022-05-27</td>
+                    <td>4.7</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>懾影屍</td>
+                    <td>2022-06-02</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>終極夜路</td>
+                    <td>2022-06-02</td>
+                    <td>2.6</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>牛首村</td>
+                    <td>2022-05-20</td>
+                    <td>3.1</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>自然就樹美</td>
+                    <td>2022-06-02</td>
+                    <td>3.9</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>劇場版咒術迴戰</td>
+                    <td>2022-02-24</td>
+                    <td>4.4</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>電影版 如果30歲還是處男，似乎就能成為魔法師</td>
+                    <td>2022-04-08</td>
+                    <td>4.3</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>愛在書店相遇時</td>
+                    <td>2022-06-02</td>
+                    <td>1.3</td>
+                </tr>
+            </table>
+    </div>
+
+    <script>
+        $(document).ready( function () {
+            $('#table_id').DataTable({
+                //中文化
+                language: {
+            url: 'language.json'
+                        }   
+            });
+        } );
+    </script>
+</body>
+</html>
